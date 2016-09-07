@@ -64,7 +64,8 @@ function onDOMLoad() {
                 const rhsBlock = document.getElementById('rhs_block');
 
                 const boxElem = document.createElement('div');
-                boxElem.setAttribute("style", "box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);margin: 6px -32px 0 2px;width: 424px;padding: 15px;");
+                boxElem.classList.add('rhsvw');
+                boxElem.setAttribute("style", "box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);margin: 6px -32px 0 2px;padding: 15px;");
 
                 // Image
                 if (response.Image.length)
